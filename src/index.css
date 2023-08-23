@@ -280,4 +280,5 @@ body {
   width: 75px;
   height: 75px;
   border-radius: 50%;
+  box-shadow: var(--shadow-3);
 }
