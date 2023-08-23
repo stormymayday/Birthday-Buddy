@@ -282,3 +282,14 @@ body {
   border-radius: 50%;
   box-shadow: var(--shadow-3);
 }
+
+* {
+  border: 2px solid red;
+}
+
+main {
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
