@@ -22,7 +22,7 @@ function App() {
 
         <List people={people} />
 
-        <button onClick={clearList}>clear</button>
+        <button className='btn btn-block' onClick={clearList}>clear</button>
 
       </section>
 
