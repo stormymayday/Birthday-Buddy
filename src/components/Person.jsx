@@ -1,6 +1,6 @@
 const Person = ({ image, name, age }) => {
     return (
-        <article>
+        <article className="person">
             <img className="img" src={image} alt={name} />
             <div>
                 <h4>{name}</h4>
