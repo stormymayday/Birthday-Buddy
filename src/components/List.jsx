@@ -1,3 +1,5 @@
+import Person from "./Person";
+
 const List = ({ people }) => {
 
     return (
@@ -12,11 +14,9 @@ const List = ({ people }) => {
 
                     people.map((person) => {
 
-                        const { id, name, age, image } = person;
-
                         return (
 
-                            <img src={image} alt={name} />
+                            <Person key={person.id} {...person} />
 
                         );
 
