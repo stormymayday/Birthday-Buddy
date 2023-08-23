@@ -1,8 +1,11 @@
+import { useState } from 'react';
 import data from './data.js';
 
 function App() {
 
-  console.log(data);
+  const [people, setPeople] = useState(data);
+
+  console.log(people);
 
   return (
     <h1>Hello World</h1>
