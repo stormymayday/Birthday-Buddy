@@ -5,6 +5,7 @@ const Person = ({ image, name, age }) => {
             <div>
                 <h4>{name}</h4>
                 <p>{age} years</p>
+                <button className="btn">remove</button>
             </div>
         </article>
     );
