@@ -1,15 +1,27 @@
 import { useState } from 'react';
 import data from './data.js';
+import List from './components/List.jsx';
 
 function App() {
 
   const [people, setPeople] = useState(data);
 
-  console.log(people);
-
   return (
-    <h1>Hello World</h1>
+
+    <main>
+
+      <section>
+
+        <h3>{people.length} birthdays today</h3>
+
+        <List people={people} />
+
+      </section>
+
+    </main>
+
   );
+
 }
 
 export default App;
