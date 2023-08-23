@@ -16,7 +16,7 @@ function App() {
 
     <main>
 
-      <section>
+      <section className='container'>
 
         <h3>{people.length} birthdays today</h3>
 
