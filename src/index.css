@@ -271,3 +271,7 @@ ul {
 }
 
 /* ============= PROJECT CSS =============== */
+
+body {
+  background-color: var(--primary-100);
+}
