@@ -293,3 +293,8 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  width: 90vw;
+  max-width: var(--max-width);
+}
