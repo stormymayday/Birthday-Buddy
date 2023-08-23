@@ -8,7 +8,7 @@ const List = ({ people, setPeople }) => {
 
             {
 
-                people.length > 1
+                people.length >= 1
 
                     ?
 
@@ -16,7 +16,7 @@ const List = ({ people, setPeople }) => {
 
                         return (
 
-                            <Person key={person.id} {...person} people={people} setPeople={setPeople} />
+                            <Person key={person.id} {...person} setPeople={setPeople} />
 
                         );
 

@@ -30,7 +30,7 @@ function App() {
 
         {
 
-          people.length > 1
+          people.length >= 1
 
             ?
 

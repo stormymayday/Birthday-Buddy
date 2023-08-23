@@ -1,12 +1,24 @@
-const Person = ({ id, image, name, age, people, setPeople }) => {
+const Person = ({ id, image, name, age, setPeople }) => {
 
     const removeItem = (id) => {
 
-        setPeople(people.filter((person) => {
+        setPeople((currentStateValue) => {
 
-            return person.id !== id;
+            const newStateValue = currentStateValue.filter((person) => {
 
-        }));
+                return person.id !== id;
+
+            });
+
+            return newStateValue;
+
+            // people.filter((person) => {
+
+            //     return person.id !== id;
+
+            // })
+
+        });
 
     };
 
