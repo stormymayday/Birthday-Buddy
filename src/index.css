@@ -275,3 +275,9 @@ ul {
 body {
   background-color: var(--primary-100);
 }
+
+.person img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
