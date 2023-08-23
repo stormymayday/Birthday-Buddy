@@ -22,6 +22,8 @@ function App() {
 
         <List people={people} />
 
+        <button onClick={clearList}>clear</button>
+
       </section>
 
     </main>
