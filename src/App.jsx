@@ -12,6 +12,12 @@ function App() {
 
   };
 
+  const resetList = () => {
+
+    setPeople(data);
+
+  };
+
   return (
 
     <main>
@@ -22,7 +28,19 @@ function App() {
 
         <List people={people} setPeople={setPeople} />
 
-        <button className='btn btn-block' onClick={clearList}>clear</button>
+        {
+
+          people.length > 1
+
+            ?
+
+            <button className='btn btn-block' onClick={clearList}>clear</button>
+
+            :
+
+            <button className='btn btn-block' onClick={resetList}>reset</button>
+
+        }
 
       </section>
 
