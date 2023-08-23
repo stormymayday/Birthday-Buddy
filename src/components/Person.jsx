@@ -12,12 +12,6 @@ const Person = ({ id, image, name, age, setPeople }) => {
 
             return newStateValue;
 
-            // people.filter((person) => {
-
-            //     return person.id !== id;
-
-            // })
-
         });
 
     };
