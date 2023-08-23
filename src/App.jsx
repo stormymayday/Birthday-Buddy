@@ -20,7 +20,7 @@ function App() {
 
         <h3>{people.length} birthdays today</h3>
 
-        <List people={people} />
+        <List people={people} setPeople={setPeople} />
 
         <button className='btn btn-block' onClick={clearList}>clear</button>
 

@@ -1,6 +1,6 @@
 import Person from "./Person";
 
-const List = ({ people }) => {
+const List = ({ people, setPeople }) => {
 
     return (
 
@@ -16,7 +16,7 @@ const List = ({ people }) => {
 
                         return (
 
-                            <Person key={person.id} {...person} />
+                            <Person key={person.id} {...person} people={people} setPeople={setPeople} />
 
                         );
 
