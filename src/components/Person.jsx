@@ -1,7 +1,13 @@
-const Person = () => {
+const Person = ({ image, name, age }) => {
     return (
-        <div>Person</div>
-    )
+        <article>
+            <img src={image} alt={name} />
+            <div>
+                <h4>{name}</h4>
+                <p>{age} years</p>
+            </div>
+        </article>
+    );
 };
 
 export default Person;

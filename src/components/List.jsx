@@ -29,6 +29,6 @@ const List = ({ people }) => {
 
         </section>
     );
-}
+};
 
 export default List;
