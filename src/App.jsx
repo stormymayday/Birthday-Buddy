@@ -6,6 +6,12 @@ function App() {
 
   const [people, setPeople] = useState(data);
 
+  const clearList = () => {
+
+    setPeople({});
+
+  };
+
   return (
 
     <main>
