@@ -1,4 +1,8 @@
+import data from "./data.js";
+
 const App = () => {
-  return <h2>Birthday Reminder - Starter</h2>;
+    console.log(data);
+
+    return <h2>Birthday Reminder - Starter</h2>;
 };
 export default App;
